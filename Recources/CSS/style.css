@@ -1,0 +1,590 @@
+/*=============================================================*/
+/* mlg Code */
+/*=============================================================*/
+
+
+* {
+    font-family: 'Open Sans', 'lato', 'arial', sans-serif;
+    font-weight: 200;
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+/*=============================================================*/
+/* Header */
+/*=============================================================*/
+
+.Background-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/LakesidemathTeam.png'); 
+    height: 703px;
+    width: 100%;
+    background-size: cover;
+    display: block; 
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    position: relative;
+    color: #e67e22;
+    font-size: 27px; 
+    margin: 0 12px;
+}
+nav a:hover {
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 2px;
+}
+
+
+.navSection {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: right;
+}
+.navSection.left {
+    text-align: left;
+}
+
+nav img {
+    height: 90px;
+    width: auto;
+    margin: 5px 30px 10px 30px;
+}
+
+
+
+
+/* ================ Nav Styles ================ */
+
+.NotHome {
+    border-bottom: 3px solid #e67e22;
+    margin-bottom: 0%;
+    padding: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+/* ================ Join Buttons ================ */
+
+.JoinBtn h1 {
+    color: #e67e22;
+    font-size: 35px;
+    position: relative;
+    top: 165px;
+    left: 273px;
+}
+
+/* ================ Borders ================ */
+
+.Border-bottom, .Border-Footer {
+    height: 2px;
+    width: 600px;
+    border-bottom: 2px solid #e67e22;
+}
+
+.Border-bottom {
+    position: relative;
+    top: 155px;
+    left: 345px;
+}
+
+.Border-Footer {
+    margin-bottom: 5px;
+    margin: 0 auto;
+    
+}
+
+.small-border {
+    height: 2px;
+    width: 70px;
+    margin: 5px 5px;
+    border-bottom: 2px solid;
+}
+
+.seperate {
+    height: 2px;
+    width: 100%;
+    border-bottom: 2px #091253 solid;
+}
+
+
+
+/* ================ Join Btn ================ */
+
+.JoinBtn li {
+    padding-top: 3px;
+    padding-left: 35px;
+    border: 2px solid #e67e22;
+    background-color: #e67e22;
+    position: relative;
+    left: 41%;
+    top: 900px;
+}
+
+.JoinBtn li:hover {
+    background-color: #ad5f19;
+    border: 2px solid #ad5f19;
+    list-style: none;
+}
+
+.JoinBtn a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+
+/* ================ Contact us Btn + Join Btn ================ */
+
+.JoinBtn li, .contact-style li {
+    font-size: 25px;
+    border-radius: 200px;
+    width: 15%;
+    height: 40px;
+    position: relative;
+    top: 170px;
+    list-style: none;
+}
+/*=============================================================*/
+/* Teachers */
+/*=============================================================*/
+
+.teachers li, .scores-content li {
+    display: inline-block;
+    width: 20%;
+    margin: 15px;
+}
+
+.teachers img {
+    border-radius: 50%;
+    height: 40%;
+    width: 40%;
+}
+
+.teachers h3 {
+    font-weight: 600;
+    font-size: 23px;
+    color: #091253;
+    margin-top: 0px;
+}
+
+.teachers h5 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #091253;
+    margin-bottom: 30px;
+}
+
+.our-teachers {
+    text-align: center;
+    margin-bottom: 55px;
+    background-color: #f2f2f2;
+    padding: 20px 20px;
+}
+
+.teach-border {
+    position: relative;
+    left: 47%;
+    border-bottom-color: #e67e22;
+}
+
+.our-teachers h2, .scores-content h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #091253;
+    text-align: center;
+}
+
+/*=============================================================*/
+/* Scores on the Homepage */
+/*=============================================================*/
+
+.scores-content {
+    text-align: center;
+    color: #091253;
+    margin: 45px 0 55px; 
+}
+
+.scores-content h1 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.score-content h5 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+/*=============================================================*/
+/* A brief history*/
+/*=============================================================*/
+
+.brief-history h2, .brief-history h4 {
+    text-align: center;
+    color: #091253;
+}
+
+.brief-history h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.brief-history h4 {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.brief-history-p {
+    max-width: 700px;
+   position: relative;
+    left: 23%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.brief-history {
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+
+.find-more {
+    margin-top: 30px;   
+}
+
+.find-more a {
+    text-decoration: none;
+    position: relative;
+    left: 45.5%;  
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    border: solid 1px #091253;
+    background-color: #091253;
+    border-radius: 200px;
+    padding: 3px 15px 3px 15px;
+}
+
+.find-more a:hover {
+    background-color: #fff;
+    color: #091253;
+}
+
+/*=============================================================*/
+/* Contact */
+/*=============================================================*/
+
+.contact-style li {
+   border: 2px solid #091253;
+   background-color: #091253;
+   position: absolute;
+   top: 94.5%;
+   left: 18.3%;   
+   margin-top: 8px;
+}
+
+.contact-style li:hover {
+    transform: scale(0.95);
+}
+.contact-style a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding-left: 17%;
+    font-weight: 300;
+}
+
+
+.contact-style h2 {
+    font-weight: 600;
+    color: #091253;
+    margin-left: 14.5%;
+    font-size: 30px;
+}
+
+.contact-border {
+    position: absolute;
+    top: 92%;
+    margin-left: 22.8%;
+    margin-bottom: 80px;
+    color: #091253;
+}
+
+.contact-style {
+    margin-bottom: 100px;
+}
+
+
+/*=============================================================*/
+/* Footer */
+/*=============================================================*/
+
+footer h2 {
+    color: #091253;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+footer h3 {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+footer a {
+    list-style: none;
+    text-decoration: none;
+    color: #091253;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer a:hover {
+    border-bottom: 2px solid #091253;
+}
+
+footer {
+    background-color: #808080;
+    padding: 0;
+    height: 12%;
+    text-align: center;
+    font-weight: 400;
+    overflow: hidden;
+    bottom: 0;
+}
+
+/*=============================================================*/
+/* About */
+/*=============================================================*/
+
+
+.about-style {
+    max-width: 700px;
+    font-weight: 500;
+    color: #091253;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.about-textbox iframe {
+    height: 165px;
+    width: 42%;
+    float: right;
+    float: top;
+    margin: 5px 5px;
+}
+
+.about-container h1 {
+    font-weight: 600;
+    text-align: center;
+    color: #091253;
+}
+
+.about-textbox {
+    position: relative;
+    left: 25%;
+}
+
+.about-container {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*=============================================================*/
+/* Photos */
+/*=============================================================*/
+    .photos-container img {
+    padding: 7px;
+    transform: scale(1.00);
+    width: 100%;
+    vertical-align: top;
+    flex-wrap: wrap;
+    height: auto;
+    align-content: flex-start;
+}
+
+    .photos-container h2{
+    color: #091253;
+    font-weight: 400;
+    margin: 2% 46%;
+    font-size: 35px;
+    display:inline-block;
+    width: 100%;
+}
+
+    .notes {
+    font-weight: 400;
+    font-size: 30pt;
+    position: absolute;
+    top: 37%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+    color: #091253;
+    display: inline-block;
+}
+
+    .photos-container img:hover + .notes {
+    opacity: 1;
+}
+
+.photo-1 {
+    position: relative;
+    display: inline-block;
+    width: 32%;
+}
+
+.photos-container {
+    margin-left: 2.5%;
+    overflow: hidden;
+}
+
+.photos-container img:hover {
+    opacity: 0.7;
+}
+
+.notes:hover + .photos-container img {
+    opacity: 0.7;
+}
+
+/*=============================================================*/
+/* grade stuff */
+/*=============================================================*/
+
+.grade-content h2 {
+    text-align: center;
+    font-weight: 400;
+    color: #091253;
+    font-size: 35px;
+}
+
+.alert-test {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    height: auto;
+    width: 35%;
+    border-radius: 5px;
+    border: 1px solid #091253;
+}
+
+.alert-test h3 {
+    text-align: center;
+    color: #091253;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.margin-grade {
+    margin-bottom: 50px;
+}
+
+.updates h2 {
+    font-weight: 400;
+    color: #091253;
+    font-size: 28px;
+    text-align: center;  
+    margin-top: 50px;
+}
+
+.updates-borders {
+    height: 2px;
+    width: 100%;
+    border-bottom: 1px solid #091253;
+}
+
+.test-practice h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #091253;
+    margin-top: 110px;
+    padding-top: 40px;
+}
+
+.test-practice p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #091253;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.test-practice a{
+    text-decoration: none;
+    color: #e67e22;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.test-practice li {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.test-practice a:hover {
+    color: #ad5f19;
+}
+
+.test-practice {
+    background-color: #f2f2f2;
+    padding-bottom: 40px;
+}
+
+.grade-scores h3 { 
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #091253;
+}
+
+.grade-scores li {
+    text-align: center;
+    display: inline-block;
+    margin-left: 21%;
+    margin-bottom: 75px;
+}
+
+.grade-scores h4, .grade-scores h2{
+    color: #091253;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
